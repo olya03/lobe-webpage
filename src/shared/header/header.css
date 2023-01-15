@@ -1,0 +1,55 @@
+header {
+  padding: 0 24px;
+  display: flex;
+  background: #fff;
+  justify-content: space-between;
+}
+header ol {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  justify-content: center;
+}
+header ol li {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  color: #767676;
+}
+header ol li:not(:first-child) {
+  margin-left: 24px;
+}
+
+header .logo {
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+}
+header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary);
+  cursor: pointer;
+
+  position: relative;
+  width: 129px;
+  height: 48px;
+  border-radius: 24px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  margin-top: 16px;
+  font-weight: 700;
+  border-radius: 24px;
+}
+header ol li a {
+  text-decoration-line: none;
+  font-weight: 550;
+  background-color: #fff;
+}

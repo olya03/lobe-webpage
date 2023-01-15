@@ -1,0 +1,30 @@
+.PromoPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PromoPage section {
+}
+.PromoPage .first {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.PromoPage h1 {
+  margin-bottom: 24px;
+}
+
+.PromoPage .second {
+  display: flex;
+}
+
+.PromoPage .second img {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.PromoPage .second img:hover {
+  transform: scale(1.1);
+
+  box-shadow: 0px 20px 30px 1px rgba(34, 60, 80, 0.2);
+}

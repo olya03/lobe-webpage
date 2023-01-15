@@ -1,0 +1,22 @@
+/* файл содержит только селлекторы тегов, не должно быть классов и id */
+
+:root {
+  font-family: LabGrotesque, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body {
+  color: var(--black);
+}
+
+a {
+  color: #767676;
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: bolder;
+}
+
+section {
+  max-width: 1170px;
+}
